@@ -1,0 +1,7 @@
+[
+  { "id": 1, "title": "Açai", "image": "https://jzumerle.github.io/dummydata/image/acai.jpg", "active": true },
+  { "id": 2, "title": "Max Casquitos", "image": "https://jzumerle.github.io/dummydata/image/maxcasquitos.jpg", "active": true },
+  { "id": 3, "title": "Milk Shake", "image": "https://jzumerle.github.io/dummydata/image/milkshake.jpg", "active": true },
+  { "id": 4, "title": "Sorvete", "image": "https://jzumerle.github.io/dummydata/image/sorvete.jpg", "active": true },
+  { "id": 5, "title": "Sundae", "image": "https://jzumerle.github.io/dummydata/image/sundae.jpg", "active": true }
+]
