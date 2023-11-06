@@ -1,0 +1,260 @@
+{
+  "restaurants": [
+    {
+      "_id": 1,
+      "store_id": "2",
+      "schema_version": 1,
+      "name": "Casquito's Sorvetes e Açaí",
+      "image": "https://jzumerle.github.io/dummydata/image/casquitos.jpg",
+      "rate": "4.8",
+      "category": ["Sorvetes", "Açaí"],
+      "minimum_order": 15.0,
+      "delivery_time": "00:40",
+      "delivery_fee": 0,
+      "pick_up_store": true,
+      "favorite": true,
+      "payment_method": ["cartão", "dinheiro", "pix"],
+      "about": "CASQUITO’S Sorvetes e Açaí",
+      "products": [
+        {
+          "product_id": "1",
+          "name": "Copinho",
+          "description": "Um copo do sensacional sorvete Casquitos. Aprox. 200ml.",
+          "image": "https://jzumerle.github.io/dummydata/image/copinho.jpg",
+          "floor_price": 5,
+          "variation": [
+            {
+              "title": "Sabor",
+              "required": true,
+              "type": "radio",
+              "items": [
+                { "key": "2-1-1", "name": "Baunilha", "descripition": "", "price": 0 },
+                { "key": "2-1-2", "name": "Chocolate", "descripition": "", "price": 0 },
+                { "key": "2-1-2", "name": "Mista", "descripition": "Baunilha e Chocolate", "price": 0 }
+              ]
+            },
+            {
+              "title": "Adicionais",
+              "required": false,
+              "type": "select",
+              "min": 0,
+              "max": 5,
+              "items": [
+                { "key": "", "name": "Creme Ovomaltine", "qtd": 0, "descripition": "", "price": 4, "max": 0 },
+                { "key": "", "name": "Nutella", "qtd": 0, "descripition": "", "price": 4, "max": 0 },
+                { "key": "", "name": "Creme de Ninho", "qtd": 0, "descripition": "", "price": 4, "max": 0 },
+                { "key": "", "name": "Doce de Leite", "qtd": 0, "descripition": "", "price": 4, "max": 0 },
+                { "key": "", "name": "Creme de amendoim", "qtd": 0, "descripition": "", "price": 4, "max": 0 },
+                { "key": "", "name": "Casquinha Tradicional", "qtd": 0, "descripition": "", "price": 0.5, "max": 1 },
+                { "key": "", "name": "Casquinha Chocolate", "qtd": 0, "descripition": "", "price": 0.5, "max": 1 }
+              ]
+            },
+            {
+              "title": "Colher",
+              "required": true,
+              "type": "radio",
+              "items": [
+                {
+                  "key": "",
+                  "name": "Não enviar Colher",
+                  "descripition": "Com objetivo de minimizar o uso de utensílios descartáveis e contribuir com o meio ambiente, gostaríamos de saber se é necessário o envio de colher",
+                  "price": 0
+                },
+                {
+                  "key": "",
+                  "name": "Enviar colher",
+                  "descripition": "Com objetivo de minimizar o uso de utensílios descartáveis e contribuir com o meio ambiente, gostaríamos de saber se é necessário o envio de colher",
+                  "price": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "product_id": "2",
+          "name": "Copinho Trufado",
+          "description": "Um copo do sensacional sorvete Casquitos, você ainda escolhe uma das trufas. aprox. 200ml.",
+          "image": "https://jzumerle.github.io/dummydata/image/copinho_trufado.jpg",
+          "floor_price": 10,
+          "variation": [
+            {
+              "title": "Sabor",
+              "required": true,
+              "type": "radio",
+              "items": [
+                { "key": "", "name": "Baunilha", "descripition": "", "price": 0 },
+                { "key": "", "name": "Chocolate", "descripition": "", "price": 0 },
+                { "key": "", "name": "Mista", "descripition": "Baunilha e Chocolate", "price": 0 }
+              ]
+            },
+            {
+              "title": "Complemento",
+              "required": true,
+              "type": "radio",
+              "items": [
+                { "key": "", "name": "Creme Kit Kat", "descripition": "", "price": 0 },
+                { "key": "", "name": "Creme Ovomaltine", "descripition": "", "price": 0 },
+                { "key": "", "name": "Nutella", "descripition": "", "price": 0 },
+                { "key": "", "name": "Doce de leite", "descripition": "", "price": 0 },
+                { "key": "", "name": "Creme de Ninho", "descripition": "", "price": 0 },
+                { "key": "", "name": "Creme de amendoim", "descripition": "", "price": 0 },
+                { "key": "", "name": "Chocolate", "descripition": "Calda Quente", "price": 0 }
+              ]
+            },
+            {
+              "title": "Casquinha",
+              "required": false,
+              "type": "select",
+              "min": 0,
+              "max": 8,
+              "items": [
+                { "key": "", "name": "Casquinha Tradicional", "qtd": 0, "descripition": "", "price": 0.5, "max": 0 },
+                { "key": "", "name": "Casquinha Chocolate", "qtd": 0, "descripition": "", "price": 0.5, "max": 0 }
+              ]
+            },
+            {
+              "title": "Colher",
+              "required": true,
+              "type": "radio",
+              "items": [
+                {
+                  "key": "",
+                  "name": "Não enviar Colher",
+                  "descripition": "Com objetivo de minimizar o uso de utensílios descartáveis e contribuir com o meio ambiente, gostaríamos de saber se é necessário o envio de colher",
+                  "price": 0
+                },
+                {
+                  "key": "",
+                  "name": "Enviar colher",
+                  "descripition": "Com objetivo de minimizar o uso de utensílios descartáveis e contribuir com o meio ambiente, gostaríamos de saber se é necessário o envio de colher",
+                  "price": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "product_id": "3",
+          "name": "Pote Pequeno",
+          "description": "Escolha 2 frutas, 2 coberturas, 4 complementos",
+          "image": "https://jzumerle.github.io/dummydata/image/pote_pequeno.jpg",
+          "floor_price": 18,
+          "variation": [
+            {
+              "title": "Sabor",
+              "required": true,
+              "type": "radio",
+              "items": [
+                { "key": "", "name": "Baunilha", "descripition": "", "price": 0 },
+                { "key": "", "name": "Chocolate", "descripition": "", "price": 0 },
+                { "key": "", "name": "Mista", "descripition": "Baunilha e Chocolate", "price": 0 }
+              ]
+            },
+            {
+              "title": "Frutas",
+              "required": true,
+              "type": "select",
+              "min": 1,
+              "max": 2,
+              "items": [
+                { "key": "", "name": "Sem Frutas", "qtd": 0, "descripition": "", "price": 0, "max": 0 },
+                { "key": "", "name": "Banana", "qtd": 0, "descripition": "", "price": 0, "max": 0 },
+                { "key": "", "name": "Uva", "qtd": 0, "descripition": "", "price": 0, "max": 0 },
+                { "key": "", "name": "Morango", "qtd": 0, "descripition": "", "price": 0, "max": 0 },
+                { "key": "", "name": "Kiwi", "qtd": 0, "descripition": "", "price": 0, "max": 0 },
+                { "key": "", "name": "Manga", "qtd": 0, "descripition": "", "price": 0, "max": 0 }
+              ]
+            },
+            {
+              "title": "Coberturas",
+              "required": true,
+              "type": "select",
+              "min": 1,
+              "max": 2,
+              "items": [
+                { "key": "", "name": "Sem Cobertura", "qtd": 0, "descripition": "", "price": 0, "max": 0 },
+                { "key": "", "name": "Cob. Morango", "qtd": 0, "descripition": "", "price": 0, "max": 0 },
+                { "key": "", "name": "Cob. Menta", "qtd": 0, "descripition": "", "price": 0, "max": 0 },
+                { "key": "", "name": "Cob. Uva", "qtd": 0, "descripition": "", "price": 0, "max": 0 },
+                { "key": "", "name": "Cob. Açaí / Guaraná", "qtd": 0, "descripition": "", "price": 0, "max": 0 },
+                { "key": "", "name": "Cob. Leite Condensado", "qtd": 0, "descripition": "", "price": 0, "max": 0 },
+                { "key": "", "name": "Cob. Caramelo", "qtd": 0, "descripition": "", "price": 0, "max": 0 },
+                { "key": "", "name": "Cob. Maracuja", "qtd": 0, "descripition": "", "price": 0, "max": 0 },
+                { "key": "", "name": "Cob. Kiwi", "qtd": 0, "descripition": "", "price": 0, "max": 0 },
+                { "key": "", "name": "Cob. Banana caramelada", "qtd": 0, "descripition": "", "price": 0, "max": 0 },
+                { "key": "", "name": "Cob. Amora", "qtd": 0, "descripition": "", "price": 0, "max": 0 },
+                { "key": "", "name": "Cob. Limão", "qtd": 0, "descripition": "", "price": 0, "max": 0 },
+                { "key": "", "name": "Cob. Chocolate", "qtd": 0, "descripition": "", "price": 0, "max": 0 }
+              ]
+            },
+
+            {
+              "title": "Complementos",
+              "required": true,
+              "type": "select",
+              "min": 1,
+              "max": 4,
+              "items": [
+                { "key": "", "name": "Ovomaltine", "qtd": 0, "descripition": "", "price": 0, "max": 0 },
+                { "key": "", "name": "Flocos de Arroz", "qtd": 0, "descripition": "", "price": 0, "max": 0 },
+                { "key": "", "name": "Granulado", "qtd": 0, "descripition": "", "price": 0, "max": 0 },
+                { "key": "", "name": "Granola", "qtd": 0, "descripition": "", "price": 0, "max": 0 },
+                { "key": "", "name": "Sucrilhos", "qtd": 0, "descripition": "", "price": 0, "max": 0 },
+                { "key": "", "name": "Polpa Amora", "qtd": 0, "descripition": "", "price": 0, "max": 0 },
+                { "key": "", "name": "Polpa Maracujá", "qtd": 0, "descripition": "", "price": 0, "max": 0 },
+                { "key": "", "name": "Polpa Morango", "qtd": 0, "descripition": "", "price": 0, "max": 0 },
+                { "key": "", "name": "Confeti", "qtd": 0, "descripition": "", "price": 0, "max": 0 },
+                { "key": "", "name": "Chocoball", "qtd": 0, "descripition": "", "price": 0, "max": 0 },
+                { "key": "", "name": "Paçoca", "qtd": 0, "descripition": "", "price": 0, "max": 0 },
+                { "key": "", "name": "Negresco", "qtd": 0, "descripition": "", "price": 0, "max": 0 },
+                { "key": "", "name": "Castanha", "qtd": 0, "descripition": "", "price": 0, "max": 0 },
+                { "key": "", "name": "Leite em Pó", "qtd": 0, "descripition": "", "price": 0, "max": 0 },
+                { "key": "", "name": "Cereja", "qtd": 0, "descripition": "", "price": 0, "max": 0 },
+                { "key": "", "name": "Gotas de Chocolate", "qtd": 0, "descripition": "", "price": 0, "max": 0 },
+                { "key": "", "name": "Bala Fini Amora", "qtd": 0, "descripition": "", "price": 0, "max": 0 },
+                { "key": "", "name": "Bala Fini Dente", "qtd": 0, "descripition": "", "price": 0, "max": 0 },
+                { "key": "", "name": "Bala Fini Banana", "qtd": 0, "descripition": "", "price": 0, "max": 0 },
+                { "key": "", "name": "Bala Fini Beijo", "qtd": 0, "descripition": "", "price": 0, "max": 0 },
+                { "key": "", "name": "Leite Condensado", "qtd": 0, "descripition": "", "price": 0, "max": 0 },
+                { "key": "", "name": "Calda Quente", "qtd": 0, "descripition": "Chocolate", "price": 0, "max": 0 }
+              ]
+            },
+            {
+              "title": "Adicionais",
+              "required": true,
+              "type": "select",
+              "min": 0,
+              "max": 5,
+              "items": [
+                { "key": "", "name": "Creme Kit Kat", "qtd": 0, "descripition": "", "price": 4, "max": 0 },
+                { "key": "", "name": "Creme Ovomaltine", "qtd": 0, "descripition": "", "price": 4, "max": 0 },
+                { "key": "", "name": "Nutella", "qtd": 0, "descripition": "", "price": 4, "max": 0 },
+                { "key": "", "name": "Creme de Ninho", "qtd": 0, "descripition": "", "price": 4, "max": 0 },
+                { "key": "", "name": "Creme de amendoim", "qtd": 0, "descripition": "", "price": 4, "max": 0 }
+              ]
+            },
+            {
+              "title": "Colher",
+              "required": true,
+              "type": "radio",
+              "items": [
+                {
+                  "key": "",
+                  "name": "Não enviar Colher",
+                  "descripition": "Com objetivo de minimizar o uso de utensílios descartáveis e contribuir com o meio ambiente, gostaríamos de saber se é necessário o envio de colher",
+                  "price": 0
+                },
+                {
+                  "key": "",
+                  "name": "Enviar colher",
+                  "descripition": "Com objetivo de minimizar o uso de utensílios descartáveis e contribuir com o meio ambiente, gostaríamos de saber se é necessário o envio de colher",
+                  "price": 0
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
