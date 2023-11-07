@@ -21,7 +21,7 @@
           "name": "Copinho",
           "description": "Um copo do sensacional sorvete Casquitos. Aprox. 200ml.",
           "image": "https://jzumerle.github.io/dummydata/image/copinho.jpg",
-          "floor_price": 5,
+          "floor_price": 5.00,
           "variation": [
             {
               "title": "Sabor",
@@ -40,13 +40,13 @@
               "min": 0,
               "max": 5,
               "items": [
-                { "key": "", "name": "Creme Ovomaltine", "qtd": 0, "descripition": "", "price": 4, "max": 0 },
-                { "key": "", "name": "Nutella", "qtd": 0, "descripition": "", "price": 4, "max": 0 },
-                { "key": "", "name": "Creme de Ninho", "qtd": 0, "descripition": "", "price": 4, "max": 0 },
-                { "key": "", "name": "Doce de Leite", "qtd": 0, "descripition": "", "price": 4, "max": 0 },
-                { "key": "", "name": "Creme de amendoim", "qtd": 0, "descripition": "", "price": 4, "max": 0 },
-                { "key": "", "name": "Casquinha Tradicional", "qtd": 0, "descripition": "", "price": 0.5, "max": 1 },
-                { "key": "", "name": "Casquinha Chocolate", "qtd": 0, "descripition": "", "price": 0.5, "max": 1 }
+                { "key": "", "name": "Creme Ovomaltine", "qtd": 0, "descripition": "", "price": 4.00, "max": 0 },
+                { "key": "", "name": "Nutella", "qtd": 0, "descripition": "", "price": 4.00, "max": 0 },
+                { "key": "", "name": "Creme de Ninho", "qtd": 0, "descripition": "", "price": 4.00, "max": 0 },
+                { "key": "", "name": "Doce de Leite", "qtd": 0, "descripition": "", "price": 4.00, "max": 0 },
+                { "key": "", "name": "Creme de amendoim", "qtd": 0, "descripition": "", "price": 4.00, "max": 0 },
+                { "key": "", "name": "Casquinha Tradicional", "qtd": 0, "descripition": "", "price": 0.50, "max": 1 },
+                { "key": "", "name": "Casquinha Chocolate", "qtd": 0, "descripition": "", "price": 0.50, "max": 1 }
               ]
             },
             {
@@ -75,7 +75,7 @@
           "name": "Copinho Trufado",
           "description": "Um copo do sensacional sorvete Casquitos, você ainda escolhe uma das trufas. aprox. 200ml.",
           "image": "https://jzumerle.github.io/dummydata/image/copinho_trufado.jpg",
-          "floor_price": 10,
+          "floor_price": 10.00,
           "variation": [
             {
               "title": "Sabor",
@@ -138,7 +138,7 @@
           "name": "Pote Pequeno",
           "description": "Escolha 2 frutas, 2 coberturas, 4 complementos",
           "image": "https://jzumerle.github.io/dummydata/image/casquitos.jpg",
-          "floor_price": 18,
+          "floor_price": 18.00,
           "variation": [
             {
               "title": "Sabor",
