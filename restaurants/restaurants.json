@@ -5,7 +5,7 @@
     {
       "store_id": "1",
       "name": "Restaurante Click Gostoso",
-      "image": "gostoso.jpg",
+      "image": "https://jzumerle.github.io/dummydata/restaurants/gostoso.jpg",
       "distance": 1.2,
       "rate": 4.4,
       "category": ["Brasileira"],
@@ -16,7 +16,7 @@
     {
       "store_id": "2",
       "name": "Spoleto - Master Place Mall",
-      "image": "spoleto.jpg",
+      "image": "https://jzumerle.github.io/dummydata/restaurants/spoleto.jpg",
       "distance": 1.8,
       "rate": 4.8,
       "category": ["Italiana"],
@@ -27,7 +27,7 @@
     {
       "store_id": "3",
       "name": "Marmitex e Churrascaria",
-      "image": "marmita.jpg",
+      "image": "https://jzumerle.github.io/dummydata/restaurants/marmita.jpg",
       "distance": 1.8,
       "rate": 4.4,
       "category": ["Marmita"],
@@ -38,7 +38,7 @@
     {
       "store_id": "4",
       "name": "Padaria Monza - Fradinhos",
-      "image": "padaria.jpg",
+      "image": "https://jzumerle.github.io/dummydata/restaurants/padaria.jpg",
       "distance": 3.5,
       "rate": 4.7,
       "category": ["Padaria"],
@@ -49,7 +49,7 @@
     {
       "store_id": "5",
       "name": "Fast Nutri Praia do Canto To Go",
-      "image": "nutri.jpg",
+      "image": "https://jzumerle.github.io/dummydata/restaurants/nutri.jpg",
       "distance": 1.5,
       "rate": 4.5,
       "category": ["Saudável"],
@@ -60,7 +60,7 @@
     {
       "store_id": "6",
       "name": "Santo Açaí Vix",
-      "image": "santo.jpg",
+      "image": "https://jzumerle.github.io/dummydata/restaurants/santo.jpg",
       "distance": 2.1,
       "rate": 4.9,
       "category": ["Açaí"],
@@ -71,7 +71,7 @@
     {
       "store_id": "7",
       "name": "Açaí House Vix",
-      "image": "house.jpg",
+      "image": "https://jzumerle.github.io/dummydata/restaurants/house.jpg",
       "distance": 1.5,
       "rate": 4.7,
       "category": ["Açaí"],
