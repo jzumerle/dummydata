@@ -30,7 +30,7 @@
       "image": "https://jzumerle.github.io/dummydata/restaurants/marmita.jpg",
       "distance": 1.8,
       "rate": 4.4,
-      "category": ["Marmita"],
+      "category": ["Marmita", "Churrasco"],
       "delivery_time": "59-69",
       "delivery_fee": 0,
       "favorite": false
